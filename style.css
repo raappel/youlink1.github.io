@@ -1,0 +1,71 @@
+*
+{
+/*border: 1px solid rgba(0,0,0,0.3);*/
+box-sizing: border-box;
+}
+
+
+li
+{
+color: white;
+display: inline-block;
+float: right;
+padding: 20px;
+background-color: blue;
+}
+
+#Youlink
+{
+color: white;
+font-size: 80px;
+height: 130px;
+padding: 50px;
+margin: auto;
+clear: right;
+position: relative;
+top: 50px;
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg");
+background-repeat: no-repeat;
+background-position: center center;
+
+}
+
+#Search
+{
+border: solid;
+text-align: left;
+color: grey;
+width: 50%;
+padding: 30px;
+margin: auto;
+position: relative;
+top: 70px;
+}
+
+.Button
+{
+font-size: 24px;
+padding: 5px;
+position: relative;
+top: 150px;
+border: 2px solid black;
+margin: auto;
+width: 30%;
+}
+
+.Stern
+{
+position: relative;
+top: 200px;
+}
+
+.Link
+{
+position: relative;
+top: 200px;
+}
+
+div.Youlink
+{
+text-align: center;
+}
