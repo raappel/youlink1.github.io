@@ -11,7 +11,7 @@ color: white;
 display: inline-block;
 float: right;
 padding: 20px;
-background-color: blue;
+background-color: grey;
 }
 
 #Youlink
@@ -30,34 +30,42 @@ background-position: center center;
 
 }
 
-#Search
+
+form
 {
-border: solid;
-text-align: left;
-color: grey;
-width: 50%;
-padding: 30px;
-margin: auto;
+display: inline-block;
 position: relative;
 top: 70px;
 }
 
-.Button
+input
 {
-font-size: 24px;
-padding: 5px;
-position: relative;
-top: 150px;
-border: 2px solid black;
-margin: auto;
-width: 30%;
+height: 42px;
+width: 200px;
+border-style: solid;
+border-color: black;
 }
 
-.Stern
+.Button
+{
+font-size: 12px;
+position: relative;
+top: 68px;
+border: 2px solid black;
+border-radius: 5px;
+margin: auto;
+width: 10%;
+display: inline-block;
+background-color: grey;
+color: white;
+}
+
+.liste
 {
 position: relative;
-top: 200px;
+top: 100px;
 }
+
 
 .Link
 {
@@ -65,7 +73,7 @@ position: relative;
 top: 200px;
 }
 
-div.Youlink
+.Seite
 {
 text-align: center;
 }
